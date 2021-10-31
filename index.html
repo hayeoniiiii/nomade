@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Greetings -->
+    <h1 id="secondGreetings" class="hidden"></h1>
+
+    <!-- clock -->
+    <span id="clock"></span>
+
+    <!-- login Form -->
+    <form id="loginForm">
+        <input required type="text" placeholder="Write Your Name Here!"/>
+        <button>Open</button>
+    </form>
+
+    <!-- todo Form -->
+    <form id="todo-form">
+        <input type="text" placeholder="Write Things To Do" required>
+    </form>
+    <div id="todo-list"></div>
+
+    <!-- todo Paper -->
+    <div id="paper">
+        <img id="todoPaper" src="./img/todopaper-05.png">
+    </div>
+
+    <!-- weather -->
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="./js/clock.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>
